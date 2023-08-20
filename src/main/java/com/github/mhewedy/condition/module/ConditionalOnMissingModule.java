@@ -18,6 +18,9 @@ import java.util.Map;
 @Conditional(ConditionalOnMissingModule.OnMissingModuleCondition.class)
 public @interface ConditionalOnMissingModule {
 
+    /**
+     * the artifact id of the package.
+     */
     String value();
 
     class OnMissingModuleCondition extends SpringBootCondition {

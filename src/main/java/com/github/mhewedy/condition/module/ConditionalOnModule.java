@@ -18,6 +18,9 @@ import java.util.Map;
 @Conditional(ConditionalOnModule.OnModuleCondition.class)
 public @interface ConditionalOnModule {
 
+    /**
+     * the artifact id of the package.
+     */
     String value();
 
     class OnModuleCondition extends SpringBootCondition {
