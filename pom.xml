@@ -8,9 +8,11 @@
         <version>3.1.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.github.mhewedy</groupId>
     <artifactId>conditional-on-module</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
     <name>conditional-on-module</name>
     <description>conditional-on-module</description>
 
@@ -22,7 +24,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
-            <!--<scope>provided</scope>-->
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -34,6 +36,7 @@
             <groupId>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
             <version>4.11.0</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>

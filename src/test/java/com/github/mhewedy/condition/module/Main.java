@@ -1,7 +1,5 @@
-package com.github.mhewedy.test;
+package com.github.mhewedy.condition.module;
 
-import com.github.mhewedy.condition.module.ConditionalOnMissingModule;
-import com.github.mhewedy.condition.module.ConditionalOnModule;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
